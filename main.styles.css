@@ -1,0 +1,17 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* Modal Styles */
+@import url("~/src/scss/modal-style.css");
+
+/* Colors */
+:root {
+  /* task-1 */
+  /* --page_bg_color: #5bb9b8; */
+  --page_bg_color: #5a717c;
+  --th_bg_color: #202932;
+  --row_bg_color_light: #435568;
+  --row_bg_color_dark: #202932;
+
+  --delete_btn_color: #f15e5e;
+}

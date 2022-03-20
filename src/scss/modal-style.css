@@ -1,0 +1,53 @@
+.full_page_modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(206, 206, 206, 0.5);
+}
+
+.full_page_modal .modal_body {
+  background: #fff;
+  width: 400px;
+  margin: 20% auto 0 auto;
+  padding: 25px 70px 35px 70px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 9px rgba(67, 85, 104, 0.5);
+}
+
+.full_page_modal .modal_body img {
+  width: 80px;
+  height: 80px;
+}
+
+.full_page_modal .modal_body h1 {
+  font-size: 38px;
+  color: var(--page_bg_color);
+}
+
+.full_page_modal .butons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.full_page_modal .cancel_btn,
+.full_page_modal .confirm_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  min-width: 100px;
+  font-size: 16px;
+  color: #fff;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+.full_page_modal .cancel_btn:hover,
+.full_page_modal .confirm_btn:hover {
+  opacity: 0.8;
+}
