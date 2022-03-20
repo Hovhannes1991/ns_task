@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <router-link :to="{name: 'task_1'}" exact-active-class="active_link">Task-1</router-link>
-    <router-link :to="{name: 'task_2'}" exact-active-class="active_link">Task-2</router-link> 
-    <router-link :to="{name: 'task_3'}" exact-active-class="active_link">Task-3</router-link>
+    <router-link :to="{name: 'task_1'}" exact-active-class="active_link">Task 1</router-link>
+    <router-link :to="{name: 'task_2'}" exact-active-class="active_link">Task 2</router-link> 
+    <router-link :to="{name: 'task_3'}" exact-active-class="active_link">Task 3</router-link>
   </nav>
   <router-view/>
 </template>
